@@ -16,7 +16,7 @@
 .country {
   background-color: white;
   width:inherit;
-  height: 16vh;
+  height: 15vh;
   border-bottom: 2px solid whitesmoke;
   display: flex;
   flex-direction: row;
@@ -25,8 +25,8 @@
 }
 
 .country img {
-  height: 50px;
-  width: 90px;
+  height: 55px;
+  width: 100px;
   margin: 20px;
 }
 
@@ -41,22 +41,22 @@ p.country {
 
 p.name {
   position: absolute;
-  left: 16vw;
+  left: 18vw;
 }
 
 p.region {
   position: absolute;
-  left: 33vw;
+  left: 40vw;
 }
 
 p.population {
   position: absolute;
-  left: 49vw;
+  left: 55vw;
 }
 
 div.languages {
   position: absolute;
-  left: 65vw;
+  left: 70vw;
 }
 
 p.tr-flag {
@@ -70,28 +70,28 @@ p.tr-flag {
 p.tr-name {
   position: absolute;
   top: -30px;
-  left: 16vw;
+  left: 18vw;
   font-weight: bold;
 }
 
 p.tr-region {
   position: absolute;
   top: -30px;
-  left: 33vw;
+  left: 40vw;
   font-weight: bold;
 }
 
 p.tr-population {
   position: absolute;
   top: -30px;
-  left: 49vw;
+  left: 55vw;
   font-weight: bold;
 }
 
 p.tr-lang {
   position: absolute;
   top: -30px;
-  left: 65vw;
+  left: 70vw;
   font-weight: bold;
 }
 
@@ -117,5 +117,5 @@ p.tr-lang {
 }
 
 .space {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
