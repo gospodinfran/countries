@@ -4,8 +4,8 @@
 
 .container {
   height: 100vh;
-  width: 90vw;
-  margin-top: 75px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .title {
@@ -27,6 +27,7 @@
 .country img {
   height: 50px;
   width: 90px;
+  margin: 20px;
 }
 
 p.country {
@@ -35,11 +36,11 @@ p.country {
 
 .map-countries {
   position: relative;
+  margin-top: 20px;
 }
 
 p.name {
   position: absolute;
-  /*left: 180px;*/
   left: 16vw;
 }
 
@@ -60,29 +61,61 @@ div.languages {
 
 p.tr-flag {
   position: absolute;
-  left: 0;
+  top: -30px;
+  margin-left: 20px;
+  height: 100%;
+  font-weight: bold;
 }
 
 p.tr-name {
   position: absolute;
+  top: -30px;
   left: 16vw;
+  font-weight: bold;
 }
 
 p.tr-region {
   position: absolute;
+  top: -30px;
   left: 33vw;
+  font-weight: bold;
 }
 
 p.tr-population {
   position: absolute;
+  top: -30px;
   left: 49vw;
+  font-weight: bold;
 }
 
 p.tr-lang {
   position: absolute;
+  top: -30px;
   left: 65vw;
+  font-weight: bold;
 }
 
 .more-icon:hover {
   cursor: pointer;
+}
+
+.details {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-p {
+  width: 55vw;
+  height: 70vh;
+  word-wrap: break-word;
+}
+
+.details h1 {
+  margin: 25px;
+}
+
+.space {
+  margin-bottom: 30px;
 }

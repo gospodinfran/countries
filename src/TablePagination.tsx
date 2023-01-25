@@ -26,6 +26,7 @@ export default function TablePaginationDemo({ count, page, setPage, perPage, set
 
   return (
     <TablePagination
+      className='table-pagination'
       component="div"
       showFirstButton={true}
       showLastButton={true}

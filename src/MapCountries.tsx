@@ -9,6 +9,7 @@ interface MapCountry {
 
 export default function MapCountries({ loading, currentCountries }: MapCountry) {
     return (<div className='map-countries'>
+      <div className="space"></div>
       <p className='tr-flag'>Flag</p>
       <p className='tr-name'>Name</p>
       <p className='tr-region'>Region</p>

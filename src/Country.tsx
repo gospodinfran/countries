@@ -1,4 +1,5 @@
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
+import { Link } from 'react-router-dom';
 
 interface Country {
     name: string
@@ -10,8 +11,8 @@ interface Country {
 
 export default function Country({ name, flag, region, population, languages }: Country ) {
 
-    function handleMoreClick(name: string) {
-        console.log(name)
+    function handleMoreClick() {
+        <Link to={'/details'} />
     }
 
     return (<div className="country">
@@ -24,6 +25,6 @@ export default function Country({ name, flag, region, population, languages }: C
             return <li key={index}>{lang}</li>
         })}</ul> : ''
         }</div>
-        <ReadMoreIcon className='more-icon' fontSize='large' onClick={() => handleMoreClick(name)} />
+        <Link to={`details/?name=${name}`}><ReadMoreIcon className='more-icon' fontSize='large'/></Link>
     </div>)
 }
