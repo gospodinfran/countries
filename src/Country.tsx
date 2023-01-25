@@ -11,10 +11,6 @@ interface Country {
 
 export default function Country({ name, flag, region, population, languages }: Country ) {
 
-    function handleMoreClick() {
-        <Link to={'/details'} />
-    }
-
     return (<div className="country">
         <img src={flag} alt={`flag of ${name}`} />
         <p className="name">{name}</p>
