@@ -1,5 +1,5 @@
 # One-day company project
 
-## Countries of the world
+Display countries API. Typical TypeScript + React stuff. 
 
 Deployed on: https://rad-queijadas-1c2c2d.netlify.app
