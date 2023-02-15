@@ -1,4 +1,4 @@
-# Two day company project
+# One-day company project
 
 ## Countries of the world
 
